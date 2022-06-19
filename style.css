@@ -1,3 +1,139 @@
-body {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.stay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    border-left: 3px solid tomato;
+    padding-left: 10px;
+}
+
+#special_stay {
+    border-left: none;
+}
+
+#footer_head {
+    color: white;
+    border-left: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+#develop_head {
+    text-align: left;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.mission {
+    color: goldenrod;
+}
+
+#misssion_2022 {
+    color: tomato;
+}
+
+.stay_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stay_right img {
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: tomato;
+}
+
+.missions {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.missions_1 {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.missions_2 {
+    background-color: rgb(138, 255, 127);
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.missions_3 {
+    background-color: rgb(127, 142, 255);
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.missions img {
+    width: 30%;
+}
+
+.develop {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.develop img {
+    width: 100%;
+}
+
+.develop_left {
+    width: 40%;
+}
+
+.develop_right {
+    width: 60%;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
 }
